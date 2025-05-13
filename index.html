@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BOGO Offer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    
+    <!-- BOGO Header -->
+    <header class="bogo-header">
+      <div class="divider-line"><span>YAY! It's BOGO</span></div>
+    </header>
+
+    <!-- Options Section -->
+    <section class="options">
+
+      <!-- 1 Unit -->
+      <article class="option most-popular">
+        <label class="card">
+          <input type="radio" name="unit" value="1" />
+          <div class="card-content">
+            <div class="card-header">
+              <div class="unit-line">
+                <span class="unit">1 Units <span class="discount">10% Off</span></span>
+                <span class="subtext">Standard Price</span>
+              </div>
+              <div class="price-line">
+                <span class="price">$10.00 USD</span>
+                <span class="strikethrough">$24.00 USD</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="selectors">
+                <div class="selector">
+                  <label>#1</label>
+                  <select><option>S</option></select>
+                  <select><option>Black</option></select>
+                </div>
+                <div class="selector">
+                  <label>#2</label>
+                  <select><option>S</option></select>
+                  <select><option>Colour</option></select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </label>
+      </article>
+
+      <!-- 2 Unit - Most Popular -->
+      <article class="option most-popular">
+        <label class="card">
+          <input type="radio" name="unit" value="2" />
+          <div class="card-content">
+            <div class="badge">MOST POPULAR</div>
+            <div class="card-header">
+              <div class="unit-line">
+                <span class="unit">2 Units <span class="discount">20% Off</span></span>
+                
+                <span class="subtext">Standard Price</span>
+              </div>
+              <div class="price-line">
+                <span class="price">$18.00 USD</span>
+                <span class="strikethrough">$24.00 USD</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="selectors">
+                <div class="selector">
+                  <label>#1</label>
+                  <select><option>S</option></select>
+                  <select><option>Black</option></select>
+                </div>
+                <div class="selector">
+                  <label>#2</label>
+                  <select><option>S</option></select>
+                  <select><option>Colour</option></select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </label>
+      </article>
+
+      <!-- 3 Unit -->
+      <article class="option most-popular">
+        <label class="card">
+          <input type="radio" name="unit" value="3" />
+          <div class="card-content">
+            <div class="card-header">
+              <div class="unit-line">
+                <span class="unit">3 Unit <span class="discount">30% Off</span></span>
+                <span class="subtext">Standard Price</span>
+              </div>
+              <div class="price-line">
+                <span class="price">$24.00 USD</span>
+                <span class="strikethrough">$24.00 USD</span>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="selectors">
+                <div class="selector">
+                  <label>#1</label>
+                  <select><option>S</option></select>
+                  <select><option>Black</option></select>
+                </div>
+                <div class="selector">
+                  <label>#2</label>
+                  <select><option>S</option></select>
+                  <select><option>Colour</option></select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </label>
+      </article>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-info">
+        <span class="delivery">Free Delivery</span>
+        <span class="total">Total : <span id="total-price"></span></span>
+      </div>
+      <button class="add-to-cart">+ Add to Cart</button>
+      <p class="powered">@ Powered by Pumper</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
