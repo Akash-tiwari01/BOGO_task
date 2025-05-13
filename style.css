@@ -9,6 +9,7 @@
     background-color: #111;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 20px;
   }
   
@@ -157,11 +158,13 @@
     font-size: 14px;
   }
   
-  .most-popular .card {
+  .active .card {
     border: 2px solid #f06292;
     background: #fff0f5;
   }
-  
+  .active .card-body{
+      display: block;    
+  }
   .badge {
     position: absolute;
     top: -8px;
